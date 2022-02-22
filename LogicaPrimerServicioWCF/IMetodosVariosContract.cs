@@ -11,6 +11,9 @@ namespace LogicaPrimerServicioWCF
     public interface IMetodosVariosContract
     {
         [OperationContract]
+        List<int> GetTablaMultiplicar(int numero);
+
+        [OperationContract]
         int GetNumeroDoble(int numero);
 
         [OperationContract]
